@@ -1,0 +1,18 @@
+<package>
+  <description brief="TurtlesimPositionController_pkg">
+
+     TurtlesimPositionController_pkg
+
+  </description>
+  <author>Cody</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/TurtlesimPositionController_pkg</url>
+  
+  <depend package="turtlesim"/>
+  <depend package="rospy"/>
+  <depend package="roscpp"/>
+
+</package>
+
+
