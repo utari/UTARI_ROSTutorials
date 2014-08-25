@@ -89,7 +89,9 @@ float GetErrorLin(turtlesim::Pose curpose, geometry_msgs::Pose2D despose)
 	float Et = GetErrorAng(curpose, despose);
 	
 	// project error onto turtle x axis
-	float Etx =  pow( pow(Ex,2.0) + pow(Ey,2.0), 0.5 )*cos(Et);
+	//~ float Etx =  pow( pow(Ex,2.0) + pow(Ey,2.0), 0.5 )*cos(Et);
+	float Etx = hypotf(Ex, Ey)*cos(Et); // improved c function
+	
 	return Etx;
 }
 
