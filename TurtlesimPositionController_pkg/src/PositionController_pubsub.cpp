@@ -100,7 +100,7 @@ float GetErrorAng(turtlesim::Pose curpose, geometry_msgs::Pose2D despose)
 	float Ey = despose.y - curpose.y;
 	
 	// get desire angle
-	float dest = atan2(Ey, Ex);
+	float dest = atan2f(Ey, Ex); // use float version to get arc tangent
 	
 	// get angle error
 	float Et = dest - curpose.theta;
