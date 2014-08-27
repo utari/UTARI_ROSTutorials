@@ -9,8 +9,6 @@
 /home/cody/fuerte_workspace/GitHubRepos/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp
 ros/ros.h
 /home/cody/fuerte_workspace/GitHubRepos/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/ros/ros.h
-math.h
--
 geometry_msgs/Pose2D.h
 /home/cody/fuerte_workspace/GitHubRepos/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/geometry_msgs/Pose2D.h
 turtlesim/Pose.h
