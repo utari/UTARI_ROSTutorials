@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/cody/fuerte_workspace/GitHubRepos/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp
 ros/ros.h
-/home/cody/fuerte_workspace/GitHubRepos/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/ros/ros.h
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/ros/ros.h
+math.h
+-
 geometry_msgs/Pose2D.h
-/home/cody/fuerte_workspace/GitHubRepos/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/geometry_msgs/Pose2D.h
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/geometry_msgs/Pose2D.h
 turtlesim/Pose.h
-/home/cody/fuerte_workspace/GitHubRepos/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/turtlesim/Pose.h
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/turtlesim/Pose.h
 turtlesim/Velocity.h
-/home/cody/fuerte_workspace/GitHubRepos/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/turtlesim/Velocity.h
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/turtlesim/Velocity.h
 
 /opt/ros/fuerte/include/XmlRpcDecl.h
 ros/macros.h
