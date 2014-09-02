@@ -36,10 +36,17 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build
+=======
+CMAKE_SOURCE_DIR = /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build
+>>>>>>> de94d855ce181e52fd4acc4776694862323deb20
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -107,9 +114,15 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles 0
+>>>>>>> de94d855ce181e52fd4acc4776694862323deb20
 .PHONY : all
 
 # The main clean target

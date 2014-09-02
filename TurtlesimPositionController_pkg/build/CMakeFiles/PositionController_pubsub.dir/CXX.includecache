@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp
 ros/ros.h
 /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/ros/ros.h
@@ -15,6 +16,19 @@ turtlesim/Pose.h
 /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/turtlesim/Pose.h
 turtlesim/Velocity.h
 /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/turtlesim/Velocity.h
+=======
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp
+ros/ros.h
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/ros/ros.h
+math.h
+-
+geometry_msgs/Pose2D.h
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/geometry_msgs/Pose2D.h
+turtlesim/Pose.h
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/turtlesim/Pose.h
+turtlesim/Velocity.h
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/turtlesim/Velocity.h
+>>>>>>> de94d855ce181e52fd4acc4776694862323deb20
 
 /opt/ros/groovy/include/XmlRpcDecl.h
 ros/macros.h

@@ -81,12 +81,13 @@ void CurPoseCallback(const turtlesim::Pose::ConstPtr& msg)
 	return;
 }
 
+// function to get linear error from the turtles perspective. Error only along turtle X axis
 float GetErrorLin(turtlesim::Pose curpose, geometry_msgs::Pose2D despose)
 {
 	// create error vector
-	float Ex = despose.x - curpose.x;
-	float Ey = despose.y - curpose.y;
-	float Et = GetErrorAng(curpose, despose);
+	float Ex = despose.x - curpose.x;									// Error X. X component
+	float Ey = despose.y - curpose.y;									// Error Y. Y component 
+	float Et = GetErrorAng(curpose, despose);							// get angle between vectors
 	
 	// project error onto turtle x axis
 	//~ float Etx =  pow( pow(Ex,2.0) + pow(Ey,2.0), 0.5 )*cos(Et);
@@ -95,14 +96,15 @@ float GetErrorLin(turtlesim::Pose curpose, geometry_msgs::Pose2D despose)
 	return Etx;
 }
 
+// function to get angular error between facing direction of the turtle and direction to desired pose
 float GetErrorAng(turtlesim::Pose curpose, geometry_msgs::Pose2D despose)
 {
 	// create error vector
-	float Ex = despose.x - curpose.x;
-	float Ey = despose.y - curpose.y;
+	float Ex = despose.x - curpose.x;									// Error X. X component 
+	float Ey = despose.y - curpose.y;									// Error Y. Y component 
 	
 	// get desire angle
-	float dest = atan2f(Ey, Ex); // use float version to get arc tangent
+	float dest = atan2f(Ey, Ex); 										// use float version to get arc tangent
 	
 	// get angle error
 	float Et = dest - curpose.theta;

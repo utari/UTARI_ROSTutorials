@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg
+=======
+# Install script for directory: /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg
+>>>>>>> de94d855ce181e52fd4acc4776694862323deb20
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -94,7 +98,13 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
+<<<<<<< HEAD
 FILE(WRITE "/home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
   FILE(APPEND "/home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+=======
+FILE(WRITE "/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/${CMAKE_INSTALL_MANIFEST}" "")
+FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
+  FILE(APPEND "/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+>>>>>>> de94d855ce181e52fd4acc4776694862323deb20
 ENDFOREACH(file)

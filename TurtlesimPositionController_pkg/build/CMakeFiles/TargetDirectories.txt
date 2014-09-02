@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/PositionController_pubsub.dir
 /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
 /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
@@ -20,3 +21,21 @@
 /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/test-results.dir
 /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/test-results-run.dir
 /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/tests.dir
+=======
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/PositionController_pubsub.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/ROSBUILD_genmsg_cpp.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/ROSBUILD_genmsg_lisp.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/ROSBUILD_gensrv_cpp.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/ROSBUILD_gensrv_lisp.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/clean-test-results.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/rosbuild_precompile.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/rosbuild_premsgsrvgen.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/rospack_genmsg.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/rospack_genmsg_libexe.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/rospack_gensrv.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/test.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/test-future.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/test-results.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/test-results-run.dir
+/home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/tests.dir
+>>>>>>> de94d855ce181e52fd4acc4776694862323deb20
