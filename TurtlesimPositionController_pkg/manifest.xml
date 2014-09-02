@@ -12,6 +12,8 @@
   <depend package="turtlesim"/>
   <depend package="rospy"/>
   <depend package="roscpp"/>
+  <depend package="geometry_msgs"/>
+  
 
 </package>
 
