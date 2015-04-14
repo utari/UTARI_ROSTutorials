@@ -32,17 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg
+CMAKE_SOURCE_DIR = /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build
-=======
-CMAKE_SOURCE_DIR = /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build
->>>>>>> de94d855ce181e52fd4acc4776694862323deb20
+CMAKE_BINARY_DIR = /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PositionController_pubsub.dir/depend.make
@@ -53,51 +46,6 @@ include CMakeFiles/PositionController_pubsub.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PositionController_pubsub.dir/flags.make
 
-<<<<<<< HEAD
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: CMakeFiles/PositionController_pubsub.dir/flags.make
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: ../src/PositionController_pubsub.cpp
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: ../manifest.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/cpp_common/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/rostime/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/roscpp_traits/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/roscpp_serialization/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/genmsg/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/genpy/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/message_runtime/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/rosconsole/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/std_msgs/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/rosgraph_msgs/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/xmlrpcpp/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/roscpp/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/catkin/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/rospack/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/roslib/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/std_srvs/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/turtlesim/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/rosgraph/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/rospy/package.xml
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o: /opt/ros/groovy/share/geometry_msgs/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o -c /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp
-
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp > CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.i
-
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp -o CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.s
-
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o.requires:
-.PHONY : CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o.requires
-
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o.provides: CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o.requires
-	$(MAKE) -f CMakeFiles/PositionController_pubsub.dir/build.make CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o.provides.build
-.PHONY : CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o.provides
-
-CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o.provides.build: CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o
-=======
 CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o: CMakeFiles/PositionController_pubsub.dir/flags.make
 CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o: ../src/PositionController_pubsub.cpp
 CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o: ../manifest.xml
@@ -105,17 +53,18 @@ CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o: /opt/r
 CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o: /opt/ros/fuerte/share/roslang/manifest.xml
 CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o: /opt/ros/fuerte/share/rospy/manifest.xml
 CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o: /opt/ros/fuerte/share/roscpp/manifest.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o: /opt/ros/fuerte/share/geometry_msgs/manifest.xml
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o -c /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -o CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o -c /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp
 
 CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp > CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -E /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp > CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.i
 
 CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp -o CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -W -Wall -Wno-unused-parameter -fno-strict-aliasing -pthread -S /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/src/PositionController_pubsub.cpp -o CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.s
 
 CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o.requires:
 .PHONY : CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o.requires
@@ -125,16 +74,15 @@ CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o.provide
 .PHONY : CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o.provides
 
 CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o.provides.build: CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o
->>>>>>> de94d855ce181e52fd4acc4776694862323deb20
 
 # Object files for target PositionController_pubsub
 PositionController_pubsub_OBJECTS = \
-"CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o"
+"CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o"
 
 # External object files for target PositionController_pubsub
 PositionController_pubsub_EXTERNAL_OBJECTS =
 
-../bin/PositionController_pubsub: CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o
+../bin/PositionController_pubsub: CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o
 ../bin/PositionController_pubsub: CMakeFiles/PositionController_pubsub.dir/build.make
 ../bin/PositionController_pubsub: CMakeFiles/PositionController_pubsub.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../bin/PositionController_pubsub"
@@ -144,7 +92,7 @@ PositionController_pubsub_EXTERNAL_OBJECTS =
 CMakeFiles/PositionController_pubsub.dir/build: ../bin/PositionController_pubsub
 .PHONY : CMakeFiles/PositionController_pubsub.dir/build
 
-CMakeFiles/PositionController_pubsub.dir/requires: CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o.requires
+CMakeFiles/PositionController_pubsub.dir/requires: CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o.requires
 .PHONY : CMakeFiles/PositionController_pubsub.dir/requires
 
 CMakeFiles/PositionController_pubsub.dir/clean:
@@ -152,10 +100,6 @@ CMakeFiles/PositionController_pubsub.dir/clean:
 .PHONY : CMakeFiles/PositionController_pubsub.dir/clean
 
 CMakeFiles/PositionController_pubsub.dir/depend:
-<<<<<<< HEAD
-	cd /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/PositionController_pubsub.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/PositionController_pubsub.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> de94d855ce181e52fd4acc4776694862323deb20
+	cd /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/PositionController_pubsub.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PositionController_pubsub.dir/depend
 

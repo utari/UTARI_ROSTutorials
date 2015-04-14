@@ -32,17 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg
+CMAKE_SOURCE_DIR = /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build
-=======
-CMAKE_SOURCE_DIR = /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build
->>>>>>> de94d855ce181e52fd4acc4776694862323deb20
+CMAKE_BINARY_DIR = /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build
 
 # Utility rule file for test-results.
 
@@ -50,7 +43,7 @@ CMAKE_BINARY_DIR = /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutor
 include CMakeFiles/test-results.dir/progress.make
 
 CMakeFiles/test-results:
-	/opt/ros/groovy/share/rosunit/cmake/../scripts/summarize_results.py --nodeps TurtlesimPositionController_pkg
+	/opt/ros/fuerte/share/rosunit/bin/summarize_results.py --nodeps TurtlesimPositionController_pkg
 
 test-results: CMakeFiles/test-results
 test-results: CMakeFiles/test-results.dir/build.make
@@ -65,10 +58,6 @@ CMakeFiles/test-results.dir/clean:
 .PHONY : CMakeFiles/test-results.dir/clean
 
 CMakeFiles/test-results.dir/depend:
-<<<<<<< HEAD
-	cd /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/cody/groovy_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/test-results.dir/DependInfo.cmake --color=$(COLOR)
-=======
-	cd /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/codyl/fuerte_workspace/UTARI_github_reps/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/test-results.dir/DependInfo.cmake --color=$(COLOR)
->>>>>>> de94d855ce181e52fd4acc4776694862323deb20
+	cd /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build /home/codyl/fuerte_workspace/Git/UTARI_ROSTutorials/TurtlesimPositionController_pkg/build/CMakeFiles/test-results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test-results.dir/depend
 

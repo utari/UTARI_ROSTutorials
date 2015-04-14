@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.cpp.o"
+  "CMakeFiles/PositionController_pubsub.dir/src/PositionController_pubsub.o"
   "../bin/PositionController_pubsub.pdb"
   "../bin/PositionController_pubsub"
 )

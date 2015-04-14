@@ -19,3 +19,14 @@
 *.exe
 *.out
 *.app
+
+# Directories #
+###############
+bin/
+build/
+srv_gen/
+msg_gen/
+CMakeFiles/
+CMakeCache.txt
+catkin_generated/
+
