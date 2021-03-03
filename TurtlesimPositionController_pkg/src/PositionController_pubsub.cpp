@@ -2,7 +2,8 @@
 #include <math.h>
 #include "geometry_msgs/Pose2D.h"										// to get desired position command
 #include "turtlesim/Pose.h"												// to read current position
-#include "turtlesim/Velocity.h"											// to send velocity command
+//~ #include "turtlesim/Velocity.h"											// to send velocity command
+#include "geometry_msgs/Twist.h"											// to send velocity command
 
 void ComPoseCallback(const geometry_msgs::Pose2D::ConstPtr& msg);
 void CurPoseCallback(const turtlesim::Pose::ConstPtr& msg);
@@ -12,12 +13,13 @@ float GetErrorAng(turtlesim::Pose curpose, geometry_msgs::Pose2D despose);
 
 geometry_msgs::Pose2D DesPose;											// variable to hold desired pose
 bool STOP = true;														// to hold stop flag, wait till first command given
-turtlesim::Velocity CmdVel;
+//~ turtlesim::Velocity CmdVel;
+geometry_msgs::Twist CmdVel;
 turtlesim::Pose CurPose;												// to hold current pose
 
 int main(int argc, char **argv)
 {
-	ros::init(argc, argv, "LookatAroundModes_sub");						// connect to roscore
+	ros::init(argc, argv, "PositionControl");						// connect to roscore
 	
 	ros::NodeHandle n;													// node object
 	// register sub to get desired position/pose commands
@@ -25,7 +27,8 @@ int main(int argc, char **argv)
 	// register sub to get current position/pose
 	ros::Subscriber CurPose_sub = n.subscribe("/turtle1/pose", 5, CurPoseCallback);
 	// register pub to send twist velocity (cmd_vel)
-	ros::Publisher Twist_pub = n.advertise<turtlesim::Velocity>("/turtle1/command_velocity", 100);
+	//~ ros::Publisher Twist_pub = n.advertise<turtlesim::Velocity>("/turtle1/command_velocity", 100);
+	ros::Publisher Twist_pub = n.advertise<geometry_msgs::Twist>("/turtle1/cmd_vel", 100);
 	
 	ros::Rate loop_rate(10);											// freq to run loops in (10 Hz)
 	float ErrorLin = 0;
@@ -44,13 +47,13 @@ int main(int argc, char **argv)
 			
 			if (ErrorLin > 0)
 			{
-				CmdVel.linear = 0.2 * ErrorLin;
+				CmdVel.linear.x = 0.2 * ErrorLin;
 			}
 			else
 			{
-				CmdVel.linear = 0;
+				CmdVel.linear.x = 0;
 			}
-			CmdVel.angular = 0.5 * ErrorAng;
+			CmdVel.angular.z = 0.5 * ErrorAng;
 			Twist_pub.publish(CmdVel);
 		}
 		else
@@ -60,6 +63,8 @@ int main(int argc, char **argv)
 		
 		loop_rate.sleep();												// sleep to maintain loop rate
 	}
+	
+	return 0;
 }
 
 // call back to send new desired Pose msgs
